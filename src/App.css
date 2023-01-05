@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.app{
+    border-radius: 10px;
+    margin-bottom: 60px;
+}
+
+table{
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    border:0.4px solid rgb(231, 225, 225);
+    margin-top: 30px;
+    border-radius: 10px !important;
+}
+tr{
+    text-align: left;
+    border:1px solid rgb(179, 170, 170);
+    border-collapse: collapse;
+    border-radius: 10px !important;
+
+}
+.slot--inputs{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.slots--right > span{
+    margin-right: 50px;
+    margin-left: 20px;
+}
+th{
+    color: rgb(43, 42, 42);
+    height: 20px;
+}
+.gg{
+    background-color: #FFFFFF;
+    margin-bottom: 12px;
+} 
+hr{
+    width: 100%;
+    border: none;
+    height: 1px;
+    background-color: lightgray;
+}
+.height-add{
+    height: 23px !important;
+    background-color: #FFFFFF;
+}
+.main-headers{
+    margin-top: 12px;
+    padding: 12px;
+}
+.slots--left{
+    border-left:0px solid #fff
+}
+.slots--right{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-right:0px solid #fff;
+}
+.grey{
+    background-color: rgb(241, 240, 240);
+    border-radius: 10px !important;
+}
+.grey > td{
+    margin-bottom: 10px;
+    padding: 10px;
+    color: rgb(121, 119, 119);
+}
+.addgroup--btn{
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(8, 114, 163);
+    color: #fff;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+.addgroup--btn:hover{
+    background-color: rgb(118, 118, 241);
+}
+.addslot--btn{
+    background-color: rgb(52, 182, 241);
+    margin: 0px;
+    padding: 6px;
+    width:max-content;
+    margin-bottom: 30px;
+}
+.removegroup--btn{
+    padding: 5px 5px ;
+    width: 40px;
+    margin: 0 20px 0 30px;
+    color: #fff;
+    background-color: rgb(230, 85, 85);
+    border:none;
+    border-radius: 4px;
+    height: 40px;
+    cursor: pointer;
+}
+.small{
+    padding: 5px 5px ;
+    width: 30px;
+    margin: 0 20px 0 30px;
+    color: #fff;
+    background-color: rgb(230, 85, 85);
+    border:none;
+    border-radius: 4px;
+    height: 30px;
+    cursor: pointer;
+}
+.input--group{
+    width: 70%;
+    margin: auto;
+    padding-left: 5px;
+    padding: 11px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: rgb(173, 168, 168);;
+}
+.input--slot{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    outline: rgb(173, 168, 168);;
+}
